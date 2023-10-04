@@ -59,7 +59,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                               curve: Curves.easeIn);
                         },
                         child: const Text(
-                          "Next",
+                          "Done",
                           style: TextStyle(color: Colors.white, fontSize: 16),
                         ))
                     : GestureDetector(

@@ -1,3 +1,4 @@
+import 'package:challenge_ui_one/screens/landing_page.dart';
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatefulWidget {
@@ -111,6 +112,13 @@ class _LoginPageState extends State<LoginPage> {
                       height: 40,
                     ),
                     GestureDetector(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (BuildContext context) =>
+                                    const LandingPage()));
+                      },
                       child: Container(
                         alignment: Alignment.center,
                         decoration: BoxDecoration(

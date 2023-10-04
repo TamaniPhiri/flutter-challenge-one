@@ -18,7 +18,7 @@ class IntroPage1 extends StatelessWidget {
               style: TextStyle(color: Colors.white, fontSize: 18),
             ),
             Lottie.network(
-                'https://lottie.host/b8d874a2-78a0-4903-8a8a-4465e1681196/Y81ySWlPbB.json')
+                'https://lottie.host/433d2944-202b-4701-bcd9-bd16c5aeb18b/jhBTvqtO2R.json'),
           ])),
     );
   }

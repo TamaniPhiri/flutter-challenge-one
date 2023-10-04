@@ -63,7 +63,6 @@ class _LoginPageState extends State<LoginPage> {
                       height: 60,
                     ),
                     Container(
-                      padding: const EdgeInsets.symmetric(horizontal: 10),
                       decoration: BoxDecoration(
                           color: Colors.white,
                           boxShadow: const [
@@ -72,26 +71,29 @@ class _LoginPageState extends State<LoginPage> {
                                 blurRadius: 20,
                                 offset: Offset(0, 10))
                           ],
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(color: Colors.black12)),
+                          borderRadius: BorderRadius.circular(10)),
                       child: Column(
                         children: [
                           Container(
+                            padding: EdgeInsets.all(10),
+                            decoration: const BoxDecoration(
+                                border: Border(
+                                    bottom: BorderSide(color: Colors.black12))),
                             child: const TextField(
                               decoration: InputDecoration(
                                   border: InputBorder.none,
                                   hintText: "Email",
                                   hintStyle: TextStyle(color: Colors.grey)),
                             ),
-                            decoration: const BoxDecoration(
-                                border: Border(
-                                    bottom: BorderSide(color: Colors.grey))),
                           ),
-                          TextField(
-                            decoration: InputDecoration(
-                                border: InputBorder.none,
-                                hintText: "Email",
-                                hintStyle: TextStyle(color: Colors.grey)),
+                          Container(
+                            padding: EdgeInsets.all(10),
+                            child: const TextField(
+                              decoration: InputDecoration(
+                                  border: InputBorder.none,
+                                  hintText: "Email",
+                                  hintStyle: TextStyle(color: Colors.grey)),
+                            ),
                           ),
                         ],
                       ),

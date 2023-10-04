@@ -19,8 +19,12 @@ class _LoginPageState extends State<LoginPage> {
           Colors.blue,
           Color.fromARGB(255, 4, 64, 114)
         ])),
-        child: const Column(
-          children: [Text("Login"), Text("Welcome Back")],
+        child: const Padding(
+          padding: EdgeInsets.all(8.0),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [Text("Login"), Text("Welcome Back")],
+          ),
         ),
       ),
     );

@@ -52,7 +52,7 @@ class _LoginPageState extends State<LoginPage> {
                 child: Container(
               width: double.infinity,
               decoration: const BoxDecoration(
-                  color: Colors.white,
+                  color: Colors.white60,
                   borderRadius: BorderRadius.only(
                       topLeft: Radius.circular(50),
                       topRight: Radius.circular(50))),
@@ -123,13 +123,19 @@ class _LoginPageState extends State<LoginPage> {
                         alignment: Alignment.center,
                         decoration: BoxDecoration(
                             color: Colors.blue,
-                            borderRadius: BorderRadius.circular(50)),
+                            borderRadius: BorderRadius.circular(50),
+                            boxShadow: [
+                              BoxShadow(color: Colors.black26, blurRadius: 20)
+                            ]),
                         padding: const EdgeInsets.all(20),
                         width: double.infinity,
                         margin: const EdgeInsets.symmetric(horizontal: 50),
                         child: const Text(
                           "Login",
-                          style: TextStyle(color: Colors.white),
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 18,
+                              fontWeight: FontWeight.bold),
                         ),
                       ),
                     )

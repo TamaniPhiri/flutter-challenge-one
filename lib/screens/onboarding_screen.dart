@@ -4,6 +4,8 @@ import 'package:challenge_ui_one/screens/intro_pages/intro_page_3.dart';
 import 'package:flutter/material.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
+import 'login_page.dart';
+
 class OnboardingScreen extends StatefulWidget {
   const OnboardingScreen({super.key});
 
@@ -27,7 +29,11 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               children: [
                 GestureDetector(
                     onTap: () {
-                     Navigator.push(context,MaterialPageRoute(builder: (BuildContext (context) => const LoginPage())));
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (BuildContext context) =>
+                                  const LoginPage()));
                     },
                     child: const Text("Skip")),
                 SmoothPageIndicator(

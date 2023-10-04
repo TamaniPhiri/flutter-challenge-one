@@ -15,12 +15,17 @@ class OnboardingScreen extends StatefulWidget {
 
 class _OnboardingScreenState extends State<OnboardingScreen> {
   final PageController _controller = PageController();
-  bool _onLastPage = false;
+  bool onLastPage = false;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Stack(children: [
         PageView(
+            onPageChanged: (index) {
+              setState(() {
+                onLastPage = (index == 2);
+              });
+            },
             controller: _controller,
             children: const [IntroPage1(), IntroPage2(), IntroPage3()]),
         Container(
@@ -46,16 +51,27 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                     effect: const ExpandingDotsEffect(
                         activeDotColor: Color.fromARGB(136, 23, 23, 23),
                         dotColor: Colors.black12)),
-                GestureDetector(
-                    onTap: () {
-                      _controller.nextPage(
-                          duration: const Duration(milliseconds: 300),
-                          curve: Curves.easeIn);
-                    },
-                    child: const Text(
-                      "Next",
-                      style: TextStyle(color: Colors.white, fontSize: 16),
-                    )),
+                onLastPage
+                    ? GestureDetector(
+                        onTap: () {
+                          _controller.nextPage(
+                              duration: const Duration(milliseconds: 300),
+                              curve: Curves.easeIn);
+                        },
+                        child: const Text(
+                          "Next",
+                          style: TextStyle(color: Colors.white, fontSize: 16),
+                        ))
+                    : GestureDetector(
+                        onTap: () {
+                          _controller.nextPage(
+                              duration: const Duration(milliseconds: 300),
+                              curve: Curves.easeIn);
+                        },
+                        child: const Text(
+                          "Next",
+                          style: TextStyle(color: Colors.white, fontSize: 16),
+                        )),
               ],
             ))
       ]),

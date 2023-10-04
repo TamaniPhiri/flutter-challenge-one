@@ -84,6 +84,7 @@ class _LoginPageState extends State<LoginPage> {
                                   border: InputBorder.none,
                                   hintText: "Email",
                                   hintStyle: TextStyle(color: Colors.grey)),
+                              style: TextStyle(fontSize: 16),
                             ),
                           ),
                           Container(
@@ -93,6 +94,7 @@ class _LoginPageState extends State<LoginPage> {
                                   border: InputBorder.none,
                                   hintText: "Password",
                                   hintStyle: TextStyle(color: Colors.grey)),
+                              style: TextStyle(fontSize: 16),
                             ),
                           ),
                         ],
@@ -101,7 +103,10 @@ class _LoginPageState extends State<LoginPage> {
                     const SizedBox(
                       height: 40,
                     ),
-                    const Text("Forgot Password?"),
+                    const Text(
+                      "Forgot Password?",
+                      style: TextStyle(fontSize: 16),
+                    ),
                     const SizedBox(
                       height: 40,
                     ),

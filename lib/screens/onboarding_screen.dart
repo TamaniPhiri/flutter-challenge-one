@@ -27,7 +27,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               children: [
                 GestureDetector(
                     onTap: () {
-                      _controller.jumpToPage(3);
+                     Navigator.push(context,MaterialPageRoute(builder: (BuildContext (context) => const LoginPage())));
                     },
                     child: const Text("Skip")),
                 SmoothPageIndicator(

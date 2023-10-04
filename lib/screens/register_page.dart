@@ -152,7 +152,7 @@ class _RegisterPageState extends State<RegisterPage> {
                         width: double.infinity,
                         margin: const EdgeInsets.symmetric(horizontal: 50),
                         child: const Text(
-                          "Login",
+                          "Register",
                           style: TextStyle(
                               color: Colors.white,
                               fontSize: 18,

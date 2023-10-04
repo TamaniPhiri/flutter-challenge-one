@@ -91,7 +91,7 @@ class _LoginPageState extends State<LoginPage> {
                             child: const TextField(
                               decoration: InputDecoration(
                                   border: InputBorder.none,
-                                  hintText: "Email",
+                                  hintText: "Password",
                                   hintStyle: TextStyle(color: Colors.grey)),
                             ),
                           ),

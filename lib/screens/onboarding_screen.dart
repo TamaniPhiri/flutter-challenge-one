@@ -15,6 +15,7 @@ class OnboardingScreen extends StatefulWidget {
 
 class _OnboardingScreenState extends State<OnboardingScreen> {
   final PageController _controller = PageController();
+  bool _onLastPage = false;
   @override
   Widget build(BuildContext context) {
     return Scaffold(

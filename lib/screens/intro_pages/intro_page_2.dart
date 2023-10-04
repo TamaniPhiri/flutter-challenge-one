@@ -14,7 +14,7 @@ class IntroPage2 extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
             const Text(
-              "Having a hard time with projects",
+              "Well, look no further",
               style: TextStyle(color: Colors.white, fontSize: 18),
             ),
             Lottie.network(

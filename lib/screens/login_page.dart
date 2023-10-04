@@ -116,7 +116,7 @@ class _LoginPageState extends State<LoginPage> {
                         decoration: BoxDecoration(color: Colors.blue),
                         padding: EdgeInsets.all(20),
                         width: double.infinity,
-                        child: Text(
+                        child: const Text(
                           "Login",
                           style: TextStyle(color: Colors.white),
                         ),

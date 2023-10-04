@@ -172,7 +172,7 @@ class _RegisterPageState extends State<RegisterPage> {
                             width: 10,
                           ),
                           Text(
-                            "Register",
+                            "Login",
                             style:
                                 TextStyle(decoration: TextDecoration.underline),
                           )

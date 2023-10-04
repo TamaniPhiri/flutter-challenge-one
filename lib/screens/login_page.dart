@@ -39,8 +39,9 @@ class _LoginPageState extends State<LoginPage> {
               width: double.infinity,
               decoration: const BoxDecoration(
                   color: Colors.white,
-                  borderRadius:
-                      BorderRadius.only(topLeft: Radius.circular(80))),
+                  borderRadius: BorderRadius.only(
+                      topLeft: Radius.circular(80),
+                      topRight: Radius.circular(80))),
               child: const Column(
                 children: [Text("help")],
               ),

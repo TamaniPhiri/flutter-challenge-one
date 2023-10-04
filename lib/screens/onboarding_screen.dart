@@ -43,7 +43,13 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                         type: SwapType.yRotation,
                         activeDotColor: Color.fromARGB(136, 23, 23, 23),
                         dotColor: Colors.black12)),
-                const Text("Next"),
+                GestureDetector(
+                    onTap: () {
+                      _controller.nextPage(
+                          duration: const Duration(microseconds: 500),
+                          curve: Curves.easeIn);
+                    },
+                    child: const Text("Next")),
               ],
             ))
       ]),

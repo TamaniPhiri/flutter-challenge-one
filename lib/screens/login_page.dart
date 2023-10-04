@@ -28,8 +28,12 @@ class _LoginPageState extends State<LoginPage> {
             const Padding(
               padding: EdgeInsets.all(20),
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
-                  Text("Login"),
+                  Text(
+                    "Login",
+                    style: TextStyle(fontSize: 40),
+                  ),
                   Text("Welcome Back"),
                 ],
               ),
@@ -40,8 +44,8 @@ class _LoginPageState extends State<LoginPage> {
               decoration: const BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.only(
-                      topLeft: Radius.circular(80),
-                      topRight: Radius.circular(80))),
+                      topLeft: Radius.circular(50),
+                      topRight: Radius.circular(50))),
               child: const Column(
                 children: [Text("help")],
               ),

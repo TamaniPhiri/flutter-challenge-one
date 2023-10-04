@@ -13,6 +13,17 @@ class _RegisterPageState extends State<RegisterPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        forceMaterialTransparency: true,
+        backgroundColor: Colors.transparent,
+        elevation: 0,
+        leading: IconButton(
+          onPressed: () {
+            Navigator.pop(context);
+          },
+          icon: Icon(Icons.chevron_left_rounded),
+        ),
+      ),
       body: Container(
         width: double.infinity,
         decoration: const BoxDecoration(
@@ -25,7 +36,7 @@ class _RegisterPageState extends State<RegisterPage> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             const SizedBox(
-              height: 80,
+              height: 40,
             ),
             const Padding(
               padding: EdgeInsets.all(20),

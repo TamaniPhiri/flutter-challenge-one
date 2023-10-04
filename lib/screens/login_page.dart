@@ -110,12 +110,16 @@ class _LoginPageState extends State<LoginPage> {
                     const SizedBox(
                       height: 40,
                     ),
-                    TextButton(
-                      onPressed: () {},
-                      style: TextButton.styleFrom(backgroundColor: Colors.blue),
-                      child: const Text(
-                        "Login",
-                        style: TextStyle(color: Colors.white),
+                    GestureDetector(
+                      child: Container(
+                        alignment: Alignment.center,
+                        decoration: BoxDecoration(color: Colors.blue),
+                        padding: EdgeInsets.all(20),
+                        width: double.infinity,
+                        child: Text(
+                          "Login",
+                          style: TextStyle(color: Colors.white),
+                        ),
                       ),
                     )
                   ],

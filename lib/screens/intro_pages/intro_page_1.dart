@@ -7,10 +7,7 @@ class IntroPage1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       color: Colors.blue,
-      child: const Center(
-          child: Column(
-        children: [Text("Having a hard time with projects")],
-      )),
+      child: const Center(child: Text("Having a hard time with projects")),
     );
   }
 }

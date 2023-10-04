@@ -147,8 +147,14 @@ class _LoginPageState extends State<LoginPage> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Text("Don't have an account?"),
-                          SizedBox(width: 20,),
-                          Text("Register")
+                          SizedBox(
+                            width: 10,
+                          ),
+                          Text(
+                            "Register",
+                            style:
+                                TextStyle(decoration: TextDecoration.underline),
+                          )
                         ],
                       ),
                     )

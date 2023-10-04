@@ -75,7 +75,7 @@ class _LoginPageState extends State<LoginPage> {
                       child: Column(
                         children: [
                           Container(
-                            padding: EdgeInsets.all(10),
+                            padding: const EdgeInsets.all(10),
                             decoration: const BoxDecoration(
                                 border: Border(
                                     bottom: BorderSide(color: Colors.black12))),
@@ -87,7 +87,7 @@ class _LoginPageState extends State<LoginPage> {
                             ),
                           ),
                           Container(
-                            padding: EdgeInsets.all(10),
+                            padding: const EdgeInsets.all(10),
                             child: const TextField(
                               decoration: InputDecoration(
                                   border: InputBorder.none,
@@ -95,12 +95,13 @@ class _LoginPageState extends State<LoginPage> {
                                   hintStyle: TextStyle(color: Colors.grey)),
                             ),
                           ),
-                          SizedBox(
-                            height: 40,
-                          )
                         ],
                       ),
-                    )
+                    ),
+                    const SizedBox(
+                      height: 40,
+                    ),
+                    const Text("Forgot Password?")
                   ],
                 ),
               ),

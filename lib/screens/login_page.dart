@@ -101,7 +101,10 @@ class _LoginPageState extends State<LoginPage> {
                     const SizedBox(
                       height: 40,
                     ),
-                    const Text("Forgot Password?")
+                    const Text("Forgot Password?"),
+                    SizedBox(
+                      height: 40,
+                    )
                   ],
                 ),
               ),

@@ -52,9 +52,11 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                 onLastPage
                     ? GestureDetector(
                         onTap: () {
-                          _controller.nextPage(
-                              duration: const Duration(milliseconds: 300),
-                              curve: Curves.easeIn);
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (BuildContext context) =>
+                                      const LoginPage()));
                         },
                         child: const Text(
                           "Done",

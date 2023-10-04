@@ -15,9 +15,9 @@ class _LoginPageState extends State<LoginPage> {
         width: double.infinity,
         decoration: const BoxDecoration(
             gradient: LinearGradient(begin: Alignment.topCenter, colors: [
-          Color(0xffB2EBF2),
+          Color.fromARGB(255, 4, 64, 114),
           Colors.blue,
-          Color.fromARGB(255, 4, 64, 114)
+          Color(0xffB2EBF2)
         ])),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -32,7 +32,7 @@ class _LoginPageState extends State<LoginPage> {
                 children: <Widget>[
                   Text(
                     "Login",
-                    style: TextStyle(fontSize: 40),
+                    style: TextStyle(fontSize: 40, fontWeight: FontWeight.w600,color: ),
                   ),
                   SizedBox(
                     height: 5,

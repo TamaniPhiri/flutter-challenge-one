@@ -9,7 +9,7 @@ class IntroPage2 extends StatelessWidget {
       color: Colors.blue,
       child: const Center(
           child: Text(
-        "Having a hard time with projects",
+        "Look no further my gee",
         style: TextStyle(color: Colors.white),
       )),
     );

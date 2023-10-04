@@ -6,7 +6,7 @@ class IntroPage3 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.blue,
+      color: const Color.fromARGB(255, 4, 64, 114),
       child: const Center(
           child: Text(
         "You are just at the right place",

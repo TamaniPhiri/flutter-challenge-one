@@ -12,6 +12,9 @@ class _LoginPageState extends State<LoginPage> {
   Widget build(BuildContext context) {
     return const Scaffold(
       backgroundColor: Color.fromARGB(255, 4, 64, 114),
+      body: Column(
+        children: [Text("Hello")],
+      ),
     );
   }
 }

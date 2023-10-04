@@ -28,7 +28,7 @@ class _LoginPageState extends State<LoginPage> {
             Padding(
               padding: EdgeInsets.all(20),
               child: Column(
-                children: [
+                children: <Widget>[
                   Text("Login"),
                   Text("Welcome Back"),
                 ],

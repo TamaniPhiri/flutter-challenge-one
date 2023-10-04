@@ -24,7 +24,7 @@ class _RegisterPageState extends State<RegisterPage> {
           },
           icon: const Icon(
             Icons.chevron_left_rounded,
-            color: Colors.black,
+            color: Colors.white,
           ),
         ),
       ),
@@ -40,7 +40,7 @@ class _RegisterPageState extends State<RegisterPage> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             const SizedBox(
-              height: 40,
+              height: 80,
             ),
             const Padding(
               padding: EdgeInsets.all(20),

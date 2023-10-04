@@ -10,7 +10,7 @@ class IntroPage1 extends StatelessWidget {
       child: const Center(
           child: Text(
         "Having a hard time with projects",
-        style: TextStyle(color: Colors.white),
+        style: TextStyle(color: Colors.white, fontSize: 18),
       )),
     );
   }

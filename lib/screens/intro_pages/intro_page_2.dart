@@ -6,7 +6,7 @@ class IntroPage2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.blue,
+      color: const Color.fromARGB(255, 18, 102, 171),
       child: const Center(
           child: Text(
         "Look no further my gee",

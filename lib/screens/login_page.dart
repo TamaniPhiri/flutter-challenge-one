@@ -111,7 +111,11 @@ class _LoginPageState extends State<LoginPage> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(120.0),
                           color: Colors.blue),
-                      child: const Center(child: Text("Login")),
+                      child: const Center(
+                          child: Text(
+                        "Login",
+                        style: TextStyle(color: Colors.white),
+                      )),
                     )
                   ],
                 ),

@@ -39,8 +39,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                 SmoothPageIndicator(
                     controller: _controller,
                     count: 3,
-                    effect: const SwapEffect(
-                        type: SwapType.yRotation,
+                    effect: const ExpandingDotsEffect(
                         activeDotColor: Color.fromARGB(136, 23, 23, 23),
                         dotColor: Colors.black12)),
                 GestureDetector(

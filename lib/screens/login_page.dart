@@ -32,12 +32,18 @@ class _LoginPageState extends State<LoginPage> {
                 children: <Widget>[
                   Text(
                     "Login",
-                    style: TextStyle(fontSize: 40, fontWeight: FontWeight.w600,color: ),
+                    style: TextStyle(
+                        fontSize: 40,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.white),
                   ),
                   SizedBox(
                     height: 5,
                   ),
-                  Text("Welcome Back"),
+                  Text(
+                    "Welcome Back",
+                    style: TextStyle(color: Colors.white70, fontSize: 18),
+                  ),
                 ],
               ),
             ),

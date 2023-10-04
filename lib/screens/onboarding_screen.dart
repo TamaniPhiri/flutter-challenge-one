@@ -35,7 +35,10 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                               builder: (BuildContext context) =>
                                   const LoginPage()));
                     },
-                    child: const Text("Skip")),
+                    child: const Text(
+                      "Skip",
+                      style: TextStyle(color: Colors.white),
+                    )),
                 SmoothPageIndicator(
                     controller: _controller,
                     count: 3,

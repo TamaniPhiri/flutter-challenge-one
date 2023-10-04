@@ -83,6 +83,9 @@ class _LoginPageState extends State<LoginPage> {
                                   hintText: "Email",
                                   hintStyle: TextStyle(color: Colors.grey)),
                             ),
+                            decoration: const BoxDecoration(
+                                border: Border(
+                                    bottom: BorderSide(color: Colors.grey))),
                           ),
                           TextField(
                             decoration: InputDecoration(

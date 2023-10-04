@@ -60,7 +60,7 @@ class _LoginPageState extends State<LoginPage> {
                 child: Column(
                   children: [
                     const SizedBox(
-                      height: 20,
+                      height: 60,
                     ),
                     Container(
                       padding: const EdgeInsets.symmetric(horizontal: 10),
@@ -72,7 +72,8 @@ class _LoginPageState extends State<LoginPage> {
                                 blurRadius: 20,
                                 offset: Offset(0, 10))
                           ],
-                          borderRadius: BorderRadius.circular(10)),
+                          borderRadius: BorderRadius.circular(10),
+                          border: Border.all(color: Colors.grey)),
                       child: const TextField(
                         decoration: InputDecoration(
                             border: InputBorder.none,

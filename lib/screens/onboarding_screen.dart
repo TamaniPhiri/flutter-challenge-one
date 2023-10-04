@@ -22,12 +22,18 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
             children: const [IntroPage1(), IntroPage2(), IntroPage3()]),
         Container(
             alignment: const Alignment(0, 0.85),
-            child: SmoothPageIndicator(
-                controller: _controller,
-                count: 3,
-                effect: const ScrollingDotsEffect(
-                    activeDotColor: Color.fromARGB(136, 23, 23, 23),
-                    dotColor: Colors.black12)))
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                const Text("Skip"),
+                SmoothPageIndicator(
+                    controller: _controller,
+                    count: 3,
+                    effect: const ScrollingDotsEffect(
+                        activeDotColor: Color.fromARGB(136, 23, 23, 23),
+                        dotColor: Colors.black12)),
+              ],
+            ))
       ]),
     );
   }

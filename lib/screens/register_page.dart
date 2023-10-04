@@ -116,13 +116,6 @@ class _RegisterPageState extends State<RegisterPage> {
                     const SizedBox(
                       height: 40,
                     ),
-                    const Text(
-                      "Forgot Password?",
-                      style: TextStyle(fontSize: 16, color: Colors.black54),
-                    ),
-                    const SizedBox(
-                      height: 40,
-                    ),
                     GestureDetector(
                       onTap: () {
                         Navigator.push(

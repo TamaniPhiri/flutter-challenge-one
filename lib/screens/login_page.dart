@@ -55,8 +55,14 @@ class _LoginPageState extends State<LoginPage> {
                   borderRadius: BorderRadius.only(
                       topLeft: Radius.circular(50),
                       topRight: Radius.circular(50))),
-              child: const Column(
-                children: [Text("help")],
+              child: Column(
+                children: [
+                  Container(
+                    decoration: BoxDecoration(
+                        boxShadow: const [BoxShadow(color: Colors.black12)],
+                        borderRadius: BorderRadius.circular(10)),
+                  )
+                ],
               ),
             ))
           ],

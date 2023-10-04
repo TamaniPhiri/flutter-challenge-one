@@ -21,7 +21,10 @@ class _RegisterPageState extends State<RegisterPage> {
           onPressed: () {
             Navigator.pop(context);
           },
-          icon: Icon(Icons.chevron_left_rounded),
+          icon: Icon(
+            Icons.chevron_left_rounded,
+            color: Colors.black,
+          ),
         ),
       ),
       body: Container(

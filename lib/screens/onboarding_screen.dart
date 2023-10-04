@@ -32,6 +32,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                     effect: const ScrollingDotsEffect(
                         activeDotColor: Color.fromARGB(136, 23, 23, 23),
                         dotColor: Colors.black12)),
+                const Text("Skip"),
               ],
             ))
       ]),

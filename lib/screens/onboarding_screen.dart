@@ -25,7 +25,9 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
             color: Colors.pink,
           ),
         ]),
-        SmoothPageIndicator(controller: _controller, count: 3)
+        Container(
+            alignment: const Alignment(0, 1),
+            child: SmoothPageIndicator(controller: _controller, count: 3))
       ]),
     );
   }

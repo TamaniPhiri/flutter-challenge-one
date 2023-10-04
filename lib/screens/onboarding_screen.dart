@@ -35,7 +35,9 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               children: [
                 GestureDetector(
                     onTap: () {
-                      _controller.jumpToPage(2);
+                      _controller.animateToPage(2,
+                          duration: const Duration(milliseconds: 200),
+                          curve: Curves.bounceIn);
                     },
                     child: const Text(
                       "Skip",

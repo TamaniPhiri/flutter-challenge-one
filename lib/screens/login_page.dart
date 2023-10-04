@@ -138,6 +138,9 @@ class _LoginPageState extends State<LoginPage> {
                               fontWeight: FontWeight.bold),
                         ),
                       ),
+                    ),
+                    SizedBox(
+                      height: 40,
                     )
                   ],
                 ),

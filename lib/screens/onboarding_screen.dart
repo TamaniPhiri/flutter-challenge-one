@@ -11,16 +11,18 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: PageView(children: [
-        Container(
-          color: Colors.amber,
-        ),
-        Container(
-          color: Colors.cyan,
-        ),
-        Container(
-          color: Colors.pink,
-        ),
+      body: Stack(children: [
+        PageView(children: [
+          Container(
+            color: Colors.amber,
+          ),
+          Container(
+            color: Colors.cyan,
+          ),
+          Container(
+            color: Colors.pink,
+          ),
+        ]),
       ]),
     );
   }

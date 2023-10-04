@@ -46,7 +46,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                 GestureDetector(
                     onTap: () {
                       _controller.nextPage(
-                          duration: const Duration(microseconds: 500),
+                          duration: const Duration(milliseconds: 300),
                           curve: Curves.easeIn);
                     },
                     child: const Text("Next")),

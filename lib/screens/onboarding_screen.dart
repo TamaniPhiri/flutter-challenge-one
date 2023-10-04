@@ -16,10 +16,10 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
           color: Colors.amber,
         ),
         Container(
-          color: Colors.amber,
+          color: Colors.cyan,
         ),
         Container(
-          color: Colors.amber,
+          color: Colors.pink,
         ),
       ]),
     );

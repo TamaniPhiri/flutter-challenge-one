@@ -118,6 +118,7 @@ class _LoginPageState extends State<LoginPage> {
                             borderRadius: BorderRadius.circular(50)),
                         padding: const EdgeInsets.all(20),
                         width: double.infinity,
+                        margin: EdgeInsets.symmetric(horizontal: 50),
                         child: const Text(
                           "Login",
                           style: TextStyle(color: Colors.white),

@@ -6,7 +6,12 @@ class IntroPage2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.green,
+      color: Colors.blue,
+      child: const Center(
+          child: Text(
+        "Having a hard time with projects",
+        style: TextStyle(color: Colors.white),
+      )),
     );
   }
 }

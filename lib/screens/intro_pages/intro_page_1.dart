@@ -8,10 +8,13 @@ class IntroPage1 extends StatelessWidget {
     return Container(
       color: Colors.blue,
       child: const Center(
-          child: Text(
-        "Having a hard time with projects",
-        style: TextStyle(color: Colors.white, fontSize: 18),
-      )),
+          child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+        Text("he"),
+        Text(
+          "Having a hard time with projects",
+          style: TextStyle(color: Colors.white, fontSize: 18),
+        ),
+      ])),
     );
   }
 }

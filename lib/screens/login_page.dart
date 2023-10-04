@@ -73,12 +73,24 @@ class _LoginPageState extends State<LoginPage> {
                                 offset: Offset(0, 10))
                           ],
                           borderRadius: BorderRadius.circular(10),
-                          border: Border.all(color: Colors.grey)),
-                      child: const TextField(
-                        decoration: InputDecoration(
-                            border: InputBorder.none,
-                            hintText: "Email",
-                            hintStyle: TextStyle(color: Colors.grey)),
+                          border: Border.all(color: Colors.black12)),
+                      child: Column(
+                        children: [
+                          Container(
+                            child: const TextField(
+                              decoration: InputDecoration(
+                                  border: InputBorder.none,
+                                  hintText: "Email",
+                                  hintStyle: TextStyle(color: Colors.grey)),
+                            ),
+                          ),
+                          TextField(
+                            decoration: InputDecoration(
+                                border: InputBorder.none,
+                                hintText: "Email",
+                                hintStyle: TextStyle(color: Colors.grey)),
+                          ),
+                        ],
                       ),
                     )
                   ],

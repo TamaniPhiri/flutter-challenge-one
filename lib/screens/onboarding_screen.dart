@@ -1,3 +1,6 @@
+import 'package:challenge_ui_one/screens/intro_pages/intro_page_1.dart';
+import 'package:challenge_ui_one/screens/intro_pages/intro_page_2.dart';
+import 'package:challenge_ui_one/screens/intro_pages/intro_page_3.dart';
 import 'package:flutter/material.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
@@ -14,17 +17,9 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Stack(children: [
-        PageView(controller: _controller, children: [
-          Container(
-            color: Colors.amber,
-          ),
-          Container(
-            color: Colors.cyan,
-          ),
-          Container(
-            color: Colors.pink,
-          ),
-        ]),
+        PageView(
+            controller: _controller,
+            children: const [IntroPage1(), IntroPage2(), IntroPage3()]),
         Container(
             alignment: const Alignment(0, 0.85),
             child: SmoothPageIndicator(

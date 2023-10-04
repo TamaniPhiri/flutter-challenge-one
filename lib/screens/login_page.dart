@@ -113,8 +113,8 @@ class _LoginPageState extends State<LoginPage> {
                     GestureDetector(
                       child: Container(
                         alignment: Alignment.center,
-                        decoration: BoxDecoration(color: Colors.blue),
-                        padding: EdgeInsets.all(20),
+                        decoration: const BoxDecoration(color: Colors.blue),
+                        padding: const EdgeInsets.all(20),
                         width: double.infinity,
                         child: const Text(
                           "Login",

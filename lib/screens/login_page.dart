@@ -10,10 +10,16 @@ class LoginPage extends StatefulWidget {
 class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      backgroundColor: Color.fromARGB(255, 4, 64, 114),
-      body: Column(
-        children: [Text("Hello")],
+    return Scaffold(
+      body: Container(
+        width: double.infinity,
+        decoration: const BoxDecoration(
+            gradient: LinearGradient(
+                begin: Alignment.topCenter,
+                colors: [Colors.cyan, Colors.blueAccent, Colors.blue])),
+        child: const Column(
+          children: [Text("Hello")],
+        ),
       ),
     );
   }

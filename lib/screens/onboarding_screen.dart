@@ -14,7 +14,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Stack(children: [
-        PageView(children: [
+        PageView(controller: _controller, children: [
           Container(
             color: Colors.amber,
           ),

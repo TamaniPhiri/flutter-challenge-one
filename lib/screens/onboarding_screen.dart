@@ -35,11 +35,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               children: [
                 GestureDetector(
                     onTap: () {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (BuildContext context) =>
-                                  const LoginPage()));
+                      _controller.jumpToPage(2);
                     },
                     child: const Text(
                       "Skip",

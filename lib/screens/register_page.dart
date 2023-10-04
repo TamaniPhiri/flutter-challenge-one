@@ -1,3 +1,4 @@
+import 'package:challenge_ui_one/screens/login_page.dart';
 import 'package:flutter/material.dart';
 
 import 'landing_page.dart';
@@ -169,7 +170,7 @@ class _RegisterPageState extends State<RegisterPage> {
                             context,
                             MaterialPageRoute(
                                 builder: (BuildContext context) =>
-                                    const LandingPage()));
+                                    const LoginPage()));
                       },
                       child: const Row(
                         mainAxisAlignment: MainAxisAlignment.center,

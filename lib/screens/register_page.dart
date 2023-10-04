@@ -14,8 +14,8 @@ class _RegisterPageState extends State<RegisterPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      extendBodyBehindAppBar: true,
       appBar: AppBar(
-        forceMaterialTransparency: true,
         backgroundColor: Colors.transparent,
         elevation: 0,
         leading: IconButton(

@@ -19,13 +19,13 @@ class _LoginPageState extends State<LoginPage> {
           Colors.blue,
           Color.fromARGB(255, 4, 64, 114)
         ])),
-        child: const Column(
+        child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            SizedBox(
+            const SizedBox(
               height: 80,
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(20),
               child: Column(
                 children: <Widget>[
@@ -33,7 +33,18 @@ class _LoginPageState extends State<LoginPage> {
                   Text("Welcome Back"),
                 ],
               ),
-            )
+            ),
+            Expanded(
+                child: Container(
+              width: double.infinity,
+              decoration: const BoxDecoration(
+                  color: Colors.white,
+                  borderRadius:
+                      BorderRadius.only(topLeft: Radius.circular(80))),
+              child: const Column(
+                children: [Text("help")],
+              ),
+            ))
           ],
         ),
       ),

@@ -31,8 +31,8 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                 controller: _controller,
                 count: 3,
                 effect: const ScrollingDotsEffect(
-                    activeDotColor: Colors.black12,
-                    dotColor: Color.fromARGB(137, 32, 32, 32))))
+                    activeDotColor: Color.fromARGB(137, 32, 32, 32),
+                    dotColor: Colors.black12)))
       ]),
     );
   }

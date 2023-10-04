@@ -20,8 +20,8 @@ class IntroPage3 extends StatelessWidget {
                 height: 400,
                 width: 400,
                 child: Lottie.network(
-                    'https://lottie.host/945d9cfc-0712-4e43-bcb5-5782c2875613/zFGutDUU2R.json',
-                    fit: BoxFit.cover),
+                    'https://lottie.host/b6edaa45-1aa4-4a7d-a515-8f2ecd3e9cf9/kD2G4biG86.json',
+                    fit: BoxFit.fill),
               ),
             ]));
   }

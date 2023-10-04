@@ -60,7 +60,7 @@ class _LoginPageState extends State<LoginPage> {
                 child: Column(
                   children: [
                     Container(
-                      padding: EdgeInsets.all(10),
+                      padding: const EdgeInsets.symmetric(horizontal: 10),
                       decoration: BoxDecoration(
                           color: Colors.white,
                           boxShadow: const [
@@ -73,12 +73,9 @@ class _LoginPageState extends State<LoginPage> {
                       child: Column(
                         children: [
                           Container(
-                            decoration: const BoxDecoration(
-                                border: Border(
-                                    bottom: BorderSide(color: Colors.grey))),
                             child: const TextField(
-                              decoration:
-                                  InputDecoration(border: InputBorder.none),
+                              decoration: InputDecoration(
+                                  border: InputBorder.none, hintText: "Email"),
                             ),
                           )
                         ],

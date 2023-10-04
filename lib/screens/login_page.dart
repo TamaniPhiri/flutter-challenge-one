@@ -20,7 +20,7 @@ class _LoginPageState extends State<LoginPage> {
           Color.fromARGB(255, 4, 64, 114)
         ])),
         child: const Column(
-          children: [Text("Hello")],
+          children: [Text("Login"), Text("Welcome Back")],
         ),
       ),
     );

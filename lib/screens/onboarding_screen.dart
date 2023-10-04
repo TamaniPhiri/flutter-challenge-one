@@ -30,8 +30,9 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
             child: SmoothPageIndicator(
                 controller: _controller,
                 count: 3,
-                effect:
-                    const ScrollingDotsEffect(activeDotColor: Colors.black12)))
+                effect: const ScrollingDotsEffect(
+                    activeDotColor: Colors.black12,
+                    dotColor: Color.fromARGB(137, 32, 32, 32))))
       ]),
     );
   }

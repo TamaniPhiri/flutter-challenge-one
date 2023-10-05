@@ -18,6 +18,9 @@ class _WelcomePageState extends State<WelcomePage> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
+              const SizedBox(
+                height: 40,
+              ),
               Container(
                 padding:
                     const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
@@ -36,14 +39,18 @@ class _WelcomePageState extends State<WelcomePage> {
                       width: 20,
                     ),
                     Container(
-                      color: Colors.red,
+                      decoration: BoxDecoration(
+                          color: Colors.pink,
+                          borderRadius: BorderRadius.circular(20)),
                       width: 200,
                     ),
                     const SizedBox(
                       width: 20,
                     ),
                     Container(
-                      color: Colors.grey,
+                      decoration: BoxDecoration(
+                          color: Colors.pink,
+                          borderRadius: BorderRadius.circular(20)),
                       width: 200,
                     ),
                   ],

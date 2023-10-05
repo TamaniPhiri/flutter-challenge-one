@@ -1,3 +1,4 @@
+import 'package:flashy_tab_bar2/flashy_tab_bar2.dart';
 import 'package:flutter/material.dart';
 
 class LandingPage extends StatefulWidget {
@@ -8,6 +9,7 @@ class LandingPage extends StatefulWidget {
 }
 
 class _LandingPageState extends State<LandingPage> {
+  int _selectedIndex = 0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -22,7 +24,10 @@ class _LandingPageState extends State<LandingPage> {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  IconButton(onPressed: () {}, icon: const Icon(Icons.person)),
+                  IconButton(
+                    onPressed: () {},
+                    icon: const Icon(Icons.person),
+                  ),
                 ],
               ),
             ),
@@ -80,6 +85,12 @@ class _LandingPageState extends State<LandingPage> {
             ),
           )
         ],
+      ),
+      bottomNavigationBar: FlashyTabBar(
+        onItemSelected: (index) => setState(() {
+          _selectedIndex = (index);
+        }),
+        items: [],
       ),
     );
   }

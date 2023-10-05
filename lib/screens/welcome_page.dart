@@ -15,7 +15,7 @@ class _WelcomePageState extends State<WelcomePage> {
       slivers: [
         SliverAppBar(
           expandedHeight: 300,
-          floating: true,
+          floating: false,
           pinned: true,
           leading: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 8),

@@ -43,6 +43,7 @@ class _WelcomePageState extends State<WelcomePage> {
                   const SizedBox(
                     height: 80,
                   ),
+                  // Search Input
                   Padding(
                     padding: const EdgeInsets.symmetric(vertical: 8),
                     child: CupertinoTextField(
@@ -60,14 +61,13 @@ class _WelcomePageState extends State<WelcomePage> {
                 ],
               ),
             ),
-            title: const Text("he"),
           ),
         ),
         SliverToBoxAdapter(
           child: Column(
             children: [
               Container(
-                color: Colors.purple,
+                color: Colors.white,
                 height: 400,
               )
             ],

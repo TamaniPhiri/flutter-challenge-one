@@ -27,7 +27,9 @@ class _WelcomePageState extends State<WelcomePage> {
                   scrollDirection: Axis.horizontal,
                   children: [
                     Container(
-                      color: Colors.purple,
+                      decoration: BoxDecoration(
+                          color: Colors.pink,
+                          borderRadius: BorderRadius.circular(20)),
                       width: 200,
                     ),
                     const SizedBox(

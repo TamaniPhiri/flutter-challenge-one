@@ -44,9 +44,9 @@ class _LandingPageState extends State<LandingPage> {
                         decoration: BoxDecoration(
                             color: Colors.white,
                             borderRadius: BorderRadius.circular(20)),
-                        child: Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 20.0),
-                          child: const TextField(),
+                        child: const Padding(
+                          padding: EdgeInsets.symmetric(horizontal: 20.0),
+                          child: TextField(),
                         ))
                   ],
                 ),

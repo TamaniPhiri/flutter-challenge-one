@@ -30,6 +30,13 @@ class _LandingPageState extends State<LandingPage> {
                   onPressed: () {},
                   icon: const Icon(Icons.notification_add_rounded)),
             ),
+            flexibleSpace: FlexibleSpaceBar(
+              background: Container(
+                child: Column(
+                  children: [TextField()],
+                ),
+              ),
+            ),
           ),
           SliverToBoxAdapter(
             child: Column(

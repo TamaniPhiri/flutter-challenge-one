@@ -14,6 +14,7 @@ class _WelcomePageState extends State<WelcomePage> {
     return CustomScrollView(
       slivers: [
         SliverAppBar(
+          backgroundColor: Color.fromARGB(255, 4, 64, 114),
           expandedHeight: 300,
           floating: false,
           pinned: true,
@@ -88,8 +89,8 @@ class _WelcomePageState extends State<WelcomePage> {
                         decoration: BoxDecoration(
                             border: Border.all(color: Colors.white10),
                             borderRadius: BorderRadius.circular(100)),
-                        padding: const EdgeInsets.all(0),
                         child: CupertinoButton(
+                            color: const Color.fromARGB(255, 4, 64, 114),
                             child: const Text(
                               "Therapists",
                               style: TextStyle(color: Colors.white),
@@ -97,7 +98,7 @@ class _WelcomePageState extends State<WelcomePage> {
                             onPressed: () {}),
                       ),
                       CupertinoButton(
-                          padding: EdgeInsets.all(0),
+                          padding: const EdgeInsets.all(0),
                           child: const Text(
                             "Friends",
                             style: TextStyle(color: Colors.white),

@@ -83,7 +83,8 @@ class _WelcomePageState extends State<WelcomePage> {
                     children: [
                       Container(
                         decoration: BoxDecoration(
-                            border: Border.all(color: Colors.white10)),
+                            border: Border.all(color: Colors.white10),
+                            borderRadius: BorderRadius.circular(100)),
                         padding: const EdgeInsets.all(0),
                         child: CupertinoButton(
                             child: const Text(

@@ -45,7 +45,7 @@ class _LandingPageState extends State<LandingPage> {
               inactiveColor: Colors.white,
               activeColor: Colors.white),
           FlashyTabBarItem(
-              icon: const Icon(Icons.schedule),
+              icon: const Icon(CupertinoIcons.square_list),
               title: const Text(
                 "Schedule",
               ),

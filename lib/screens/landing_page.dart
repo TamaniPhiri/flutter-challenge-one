@@ -24,9 +24,12 @@ class _LandingPageState extends State<LandingPage> {
           _selectedIndex = (index);
         }),
         items: [
-          FlashyTabBarItem(icon: Icon(Icons.home), title: Text("Home")),
-          FlashyTabBarItem(icon: Icon(Icons.add), title: Text("Tasks")),
-          FlashyTabBarItem(icon: Icon(Icons.home), title: Text("Home"))
+          FlashyTabBarItem(
+              icon: const Icon(Icons.home), title: const Text("Home")),
+          FlashyTabBarItem(
+              icon: const Icon(Icons.add), title: const Text("Tasks")),
+          FlashyTabBarItem(
+              icon: const Icon(Icons.home), title: const Text("Home"))
         ],
       ),
     );

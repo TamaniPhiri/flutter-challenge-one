@@ -44,12 +44,13 @@ class _WelcomePageState extends State<WelcomePage> {
                     height: 80,
                   ),
                   Padding(
-                    padding: const EdgeInsets.symmetric(
-                        horizontal: 20.0, vertical: 8),
+                    padding: const EdgeInsets.symmetric(vertical: 8),
                     child: CupertinoTextField(
                       padding: EdgeInsets.all(20),
                       suffix: IconButton(
-                          onPressed: () {}, icon: Icon(CupertinoIcons.search)),
+                          padding: EdgeInsets.only(right: 20),
+                          onPressed: () {},
+                          icon: Icon(CupertinoIcons.search)),
                       decoration: BoxDecoration(
                         color: Colors.white60,
                         borderRadius: BorderRadius.circular(20),

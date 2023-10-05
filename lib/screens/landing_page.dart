@@ -33,9 +33,24 @@ class _LandingPageState extends State<LandingPage> {
             flexibleSpace: FlexibleSpaceBar(
               background: Container(
                 child: Column(
-                  children: [TextField()],
+                  children: [
+                    SizedBox(
+                      height: 80,
+                    ),
+                    TextField()
+                  ],
                 ),
               ),
+            ),
+          ),
+          SliverToBoxAdapter(
+            child: Column(
+              children: [
+                Container(
+                  color: Colors.purple,
+                  height: 400,
+                )
+              ],
             ),
           ),
           SliverToBoxAdapter(

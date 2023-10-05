@@ -47,7 +47,17 @@ class _WelcomePageState extends State<WelcomePage> {
                     children: [
                       Text(
                         "Hello",
-                        style: TextStyle(fontSize: 32),
+                        style: TextStyle(
+                            fontSize: 32,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.white),
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Text(
+                        "Rabbi",
+                        style: TextStyle(fontSize: 32, color: Colors.white),
                       )
                     ],
                   ),

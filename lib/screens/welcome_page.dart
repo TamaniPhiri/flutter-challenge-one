@@ -20,11 +20,14 @@ class _WelcomePageState extends State<WelcomePage> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const SizedBox(
-                height: 30,
+                height: 40,
               ),
               const Padding(
                 padding: EdgeInsets.only(left: 20),
-                child: Text("Activity"),
+                child: Text(
+                  "Activity",
+                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+                ),
               ),
               Container(
                 padding:

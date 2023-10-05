@@ -13,7 +13,11 @@ class LandingPage extends StatefulWidget {
 
 class _LandingPageState extends State<LandingPage> {
   int _selectedIndex = 0;
-  List<Widget> tabItems = [WelcomePage(), TaskPage(), SchedulePage()];
+  List<Widget> tabItems = [
+    const WelcomePage(),
+    const TaskPage(),
+    const SchedulePage()
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(

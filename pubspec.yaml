@@ -38,6 +38,7 @@ dependencies:
   smooth_page_indicator: ^1.1.0
   lottie: ^2.6.0
   flashy_tab_bar2: ^0.0.6
+  google_fonts: ^6.1.0
 
 dev_dependencies:
   flutter_test:

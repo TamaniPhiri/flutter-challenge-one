@@ -38,7 +38,9 @@ class _LandingPageState extends State<LandingPage> {
               title: const Text("Tasks"),
               activeColor: Colors.white),
           FlashyTabBarItem(
-              icon: const Icon(Icons.schedule), title: const Text("Schedule"))
+              icon: const Icon(Icons.schedule),
+              title: const Text("Schedule"),
+              activeColor: Colors.white)
         ],
         iconSize: 30,
         showElevation: true,

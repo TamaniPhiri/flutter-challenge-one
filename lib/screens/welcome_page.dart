@@ -37,6 +37,11 @@ class _WelcomePageState extends State<WelcomePage> {
           ),
           flexibleSpace: FlexibleSpaceBar(
             background: Container(
+              decoration: const BoxDecoration(
+                  gradient: LinearGradient(begin: Alignment.topCenter, colors: [
+                Color.fromARGB(255, 4, 64, 114),
+                Colors.blue,
+              ])),
               padding: const EdgeInsets.symmetric(horizontal: 20),
               child: Column(
                 children: [

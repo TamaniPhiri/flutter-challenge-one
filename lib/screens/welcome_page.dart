@@ -1,3 +1,4 @@
+import 'package:challenge_ui_one/utils/categories_filter.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -81,6 +82,7 @@ class _WelcomePageState extends State<WelcomePage> {
                   const SizedBox(
                     height: 20,
                   ),
+                  const CategoryFilter()
                 ],
               ),
             ),

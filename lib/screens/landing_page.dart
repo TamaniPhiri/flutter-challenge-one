@@ -24,7 +24,7 @@ class _LandingPageState extends State<LandingPage> {
     return Scaffold(
       body: tabItems[_selectedIndex],
       bottomNavigationBar: FlashyTabBar(
-        backgroundColor: Colors.blue,
+        backgroundColor: const Color.fromARGB(255, 4, 64, 114),
         selectedIndex: _selectedIndex,
         onItemSelected: (index) => setState(() {
           _selectedIndex = (index);

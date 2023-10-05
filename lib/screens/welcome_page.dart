@@ -57,7 +57,7 @@ class _WelcomePageState extends State<WelcomePage> {
                       ),
                       Text(
                         "Gabby",
-                        style: TextStyle(fontSize: 32, color: Colors.white),
+                        style: TextStyle(fontSize: 32, color: Colors.white60),
                       )
                     ],
                   ),
@@ -77,6 +77,22 @@ class _WelcomePageState extends State<WelcomePage> {
                       borderRadius: BorderRadius.circular(20),
                     ),
                   ),
+                  Row(
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      CupertinoButton(
+                          child: const Text(
+                            "Therapists",
+                            style: TextStyle(color: Colors.white),
+                          ),
+                          onPressed: () {}),
+                      CupertinoButton(
+                          child: const Text("Therapists"), onPressed: () {}),
+                      CupertinoButton(
+                          child: const Text("Therapists"), onPressed: () {}),
+                    ],
+                  )
                 ],
               ),
             ),

@@ -24,7 +24,8 @@ class _LandingPageState extends State<LandingPage> {
                 ],
               ),
             ),
-            title: widget(
+            title: Align(
+              alignment: Alignment.centerRight,
               child: IconButton(
                   onPressed: () {},
                   icon: const Icon(Icons.notification_add_rounded)),

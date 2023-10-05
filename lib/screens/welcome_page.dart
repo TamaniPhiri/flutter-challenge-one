@@ -87,7 +87,7 @@ class _WelcomePageState extends State<WelcomePage> {
                     children: [
                       Container(
                         decoration: BoxDecoration(
-                            border: Border.all(color: Colors.white10),
+                            border: Border.all(color: Colors.white54),
                             borderRadius: BorderRadius.circular(100)),
                         child: CupertinoButton(
                             pressedOpacity: 0.3,

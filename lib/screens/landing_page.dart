@@ -48,7 +48,7 @@ class _LandingPageState extends State<LandingPage> {
                   ],
                 ),
               ),
-              title: Text("he"),
+              title: const Text("he"),
             ),
           ),
           SliverToBoxAdapter(

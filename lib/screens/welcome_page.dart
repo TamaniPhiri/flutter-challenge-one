@@ -56,7 +56,7 @@ class _WelcomePageState extends State<WelcomePage> {
                         width: 10,
                       ),
                       Text(
-                        "Rabbi",
+                        "Gabby",
                         style: TextStyle(fontSize: 32, color: Colors.white),
                       )
                     ],

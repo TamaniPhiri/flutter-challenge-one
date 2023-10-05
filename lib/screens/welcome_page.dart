@@ -1,3 +1,4 @@
+import 'package:challenge_ui_one/components/app_bar.dart';
 import 'package:flutter/material.dart';
 
 class WelcomePage extends StatefulWidget {
@@ -12,6 +13,7 @@ class _WelcomePageState extends State<WelcomePage> {
   Widget build(BuildContext context) {
     return CustomScrollView(
       slivers: [
+        const MyAppBar(),
         SliverToBoxAdapter(
           child: Column(
             children: [

@@ -21,6 +21,7 @@ class _WelcomePageState extends State<WelcomePage> {
                 color: Colors.white,
                 height: 400,
                 child: ListView(
+                  scrollDirection: Axis.horizontal,
                   children: const [
                     Text("Hello"),
                     Text("Hello"),

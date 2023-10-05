@@ -80,7 +80,7 @@ class _MyAppBarState extends State<MyAppBar> {
               const SizedBox(
                 height: 20,
               ),
-              const CategoryFilter()
+              const CategoryFilter(),
             ],
           ),
         ),

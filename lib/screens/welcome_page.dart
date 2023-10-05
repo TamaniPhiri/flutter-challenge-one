@@ -19,7 +19,14 @@ class _WelcomePageState extends State<WelcomePage> {
             children: [
               Container(
                 color: Colors.white,
-                height: 400,
+                child: ListView(
+                  children: [
+                    Container(
+                      color: Colors.blue,
+                      height: 30,
+                    )
+                  ],
+                ),
               )
             ],
           ),

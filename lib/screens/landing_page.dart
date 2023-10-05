@@ -41,7 +41,9 @@ class _LandingPageState extends State<LandingPage> {
                       height: 80,
                     ),
                     Container(
-                        decoration: const BoxDecoration(color: Colors.white),
+                        decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(20)),
                         child: const TextField())
                   ],
                 ),

@@ -15,6 +15,8 @@ class _LandingPageState extends State<LandingPage> {
         slivers: [
           SliverAppBar(
             expandedHeight: 300,
+            floating: true,
+            pinned: true,
             leading: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 8),
               child: Row(
@@ -30,17 +32,16 @@ class _LandingPageState extends State<LandingPage> {
                   onPressed: () {},
                   icon: const Icon(Icons.notification_add_rounded)),
             ),
-            flexibleSpace: FlexibleSpaceBar(
-              background: Container(
-                child: Column(
-                  children: [
-                    SizedBox(
-                      height: 80,
-                    ),
-                    TextField()
-                  ],
-                ),
+            flexibleSpace: const FlexibleSpaceBar(
+              background: Column(
+                children: [
+                  SizedBox(
+                    height: 80,
+                  ),
+                  TextField()
+                ],
               ),
+              title: Text("he"),
             ),
           ),
           SliverToBoxAdapter(

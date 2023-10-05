@@ -68,6 +68,7 @@ class _WelcomePageState extends State<WelcomePage> {
                   Padding(
                     padding: const EdgeInsets.symmetric(vertical: 8),
                     child: CupertinoTextField(
+                      placeholder: "Search",
                       padding: const EdgeInsets.all(20),
                       suffix: IconButton(
                           padding: const EdgeInsets.only(right: 20),

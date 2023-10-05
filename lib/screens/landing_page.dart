@@ -14,15 +14,22 @@ class _LandingPageState extends State<LandingPage> {
       body: CustomScrollView(
         slivers: [
           SliverAppBar(
-              expandedHeight: 300,
-              leading: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 8),
-                child: Row(
-                  children: [
-                    IconButton(onPressed: () {}, icon: const Icon(Icons.person))
-                  ],
-                ),
-              )),
+            expandedHeight: 300,
+            leading: Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 8),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  IconButton(onPressed: () {}, icon: const Icon(Icons.person)),
+                ],
+              ),
+            ),
+            title: widget(
+              child: IconButton(
+                  onPressed: () {},
+                  icon: const Icon(Icons.notification_add_rounded)),
+            ),
+          ),
           SliverToBoxAdapter(
             child: Column(
               children: [

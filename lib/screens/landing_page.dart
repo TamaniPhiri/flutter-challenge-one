@@ -31,10 +31,11 @@ class _LandingPageState extends State<LandingPage> {
           FlashyTabBarItem(
               icon: const Icon(Icons.home), title: const Text("Home")),
           FlashyTabBarItem(
-              icon: const Icon(Icons.add), title: const Text("Tasks")),
+              icon: const Icon(Icons.task), title: const Text("Tasks")),
           FlashyTabBarItem(
-              icon: const Icon(Icons.home), title: const Text("Home"))
+              icon: const Icon(Icons.schedule), title: const Text("Schedule"))
         ],
+        iconSize: 30,
       ),
     );
   }

@@ -46,7 +46,10 @@ class _LandingPageState extends State<LandingPage> {
                             borderRadius: BorderRadius.circular(20)),
                         child: const Padding(
                           padding: EdgeInsets.symmetric(horizontal: 20.0),
-                          child: TextField(),
+                          child: TextField(
+                            decoration: InputDecoration(
+                                border: InputBorder.none, hintText: "Search"),
+                          ),
                         ))
                   ],
                 ),

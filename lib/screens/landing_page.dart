@@ -19,7 +19,7 @@ class _LandingPageState extends State<LandingPage> {
                 padding: const EdgeInsets.symmetric(horizontal: 8),
                 child: Row(
                   children: [
-                    IconButton(onPressed: () {}, icon: Icon(Icons.person))
+                    IconButton(onPressed: () {}, icon: const Icon(Icons.person))
                   ],
                 ),
               )),

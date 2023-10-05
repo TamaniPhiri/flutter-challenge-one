@@ -47,7 +47,7 @@ class _LandingPageState extends State<LandingPage> {
                         ),
                         child: const Padding(
                           padding: EdgeInsets.symmetric(
-                              horizontal: 20.0, vertical: 10),
+                              horizontal: 20.0, vertical: 8),
                           child: TextField(
                             decoration: InputDecoration(
                                 border: InputBorder.none, hintText: "Search"),

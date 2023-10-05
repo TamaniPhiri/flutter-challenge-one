@@ -46,11 +46,11 @@ class _WelcomePageState extends State<WelcomePage> {
                   Padding(
                     padding: const EdgeInsets.symmetric(vertical: 8),
                     child: CupertinoTextField(
-                      padding: EdgeInsets.all(20),
+                      padding: const EdgeInsets.all(20),
                       suffix: IconButton(
-                          padding: EdgeInsets.only(right: 20),
+                          padding: const EdgeInsets.only(right: 20),
                           onPressed: () {},
-                          icon: Icon(CupertinoIcons.search)),
+                          icon: const Icon(CupertinoIcons.search)),
                       decoration: BoxDecoration(
                         color: Colors.white60,
                         borderRadius: BorderRadius.circular(20),

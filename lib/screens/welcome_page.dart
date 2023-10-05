@@ -57,6 +57,9 @@ class _WelcomePageState extends State<WelcomePage> {
                         borderRadius: BorderRadius.circular(20),
                       ),
                     ),
+                  ),
+                  Row(
+                    children: [Text("hello")],
                   )
                 ],
               ),

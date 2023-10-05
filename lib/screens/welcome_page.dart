@@ -16,6 +16,7 @@ class _WelcomePageState extends State<WelcomePage> {
         const MyAppBar(),
         SliverToBoxAdapter(
           child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Container(
                 padding:

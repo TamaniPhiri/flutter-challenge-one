@@ -70,19 +70,16 @@ class _WelcomePageState extends State<WelcomePage> {
                     height: 10,
                   ),
                   // Search Input
-                  Padding(
-                    padding: const EdgeInsets.symmetric(vertical: 8),
-                    child: CupertinoTextField(
-                      placeholder: "Search",
-                      padding: const EdgeInsets.all(20),
-                      suffix: IconButton(
-                          padding: const EdgeInsets.only(right: 20),
-                          onPressed: () {},
-                          icon: const Icon(CupertinoIcons.search)),
-                      decoration: BoxDecoration(
-                        color: Colors.white60,
-                        borderRadius: BorderRadius.circular(20),
-                      ),
+                  CupertinoTextField(
+                    placeholder: "Search",
+                    padding: const EdgeInsets.all(20),
+                    suffix: IconButton(
+                        padding: const EdgeInsets.only(right: 20),
+                        onPressed: () {},
+                        icon: const Icon(CupertinoIcons.search)),
+                    decoration: BoxDecoration(
+                      color: Colors.white60,
+                      borderRadius: BorderRadius.circular(20),
                     ),
                   ),
                 ],

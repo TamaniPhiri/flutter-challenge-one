@@ -82,16 +82,18 @@ class _WelcomePageState extends State<WelcomePage> {
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
                       Container(
+                        decoration: BoxDecoration(
+                            border: Border.all(color: Colors.white10)),
+                        padding: const EdgeInsets.all(0),
                         child: CupertinoButton(
                             child: const Text(
                               "Therapists",
                               style: TextStyle(color: Colors.white),
                             ),
                             onPressed: () {}),
-                        decoration: BoxDecoration(
-                            border: Border.all(color: Colors.white10)),
                       ),
                       CupertinoButton(
+                          padding: EdgeInsets.all(0),
                           child: const Text(
                             "Friends",
                             style: TextStyle(color: Colors.white),

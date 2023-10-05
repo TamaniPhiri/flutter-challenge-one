@@ -40,7 +40,7 @@ class _LandingPageState extends State<LandingPage> {
               inactiveColor: Colors.white,
               activeColor: Colors.white),
           FlashyTabBarItem(
-              icon: const Icon(CupertinoIcons.tag_solid),
+              icon: const Icon(CupertinoIcons.today),
               title: Text(
                 "Tasks",
                 style: GoogleFonts.poppins(),

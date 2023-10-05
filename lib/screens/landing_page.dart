@@ -87,10 +87,15 @@ class _LandingPageState extends State<LandingPage> {
         ],
       ),
       bottomNavigationBar: FlashyTabBar(
+        selectedIndex: _selectedIndex,
         onItemSelected: (index) => setState(() {
           _selectedIndex = (index);
         }),
-        items: [FlashyTabBarItem(icon: Icon(Icons.home), title: Text("Home"))],
+        items: [
+          FlashyTabBarItem(icon: Icon(Icons.home), title: Text("Home")),
+          FlashyTabBarItem(icon: Icon(Icons.home), title: Text("Home")),
+          FlashyTabBarItem(icon: Icon(Icons.home), title: Text("Home"))
+        ],
       ),
     );
   }

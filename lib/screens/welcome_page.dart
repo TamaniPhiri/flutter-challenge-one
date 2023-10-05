@@ -23,10 +23,20 @@ class _WelcomePageState extends State<WelcomePage> {
                 height: 40,
               ),
               const Padding(
-                padding: EdgeInsets.only(left: 20),
-                child: Text(
-                  "Activity",
-                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+                padding: EdgeInsets.symmetric(horizontal: 20),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Text(
+                      "Activity",
+                      style:
+                          TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+                    ),
+                    Text(
+                      "See all",
+                      style: TextStyle(fontSize: 16),
+                    ),
+                  ],
                 ),
               ),
               Container(

@@ -81,37 +81,6 @@ class _WelcomePageState extends State<WelcomePage> {
                   const SizedBox(
                     height: 20,
                   ),
-                  Row(
-                    crossAxisAlignment: CrossAxisAlignment.center,
-                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                    children: [
-                      Container(
-                        decoration: BoxDecoration(
-                            border: Border.all(color: Colors.white54),
-                            borderRadius: BorderRadius.circular(100)),
-                        child: CupertinoButton(
-                            pressedOpacity: 0.3,
-                            child: const Text(
-                              "Therapists",
-                              style: TextStyle(color: Colors.white),
-                            ),
-                            onPressed: () {}),
-                      ),
-                      CupertinoButton(
-                          padding: EdgeInsets.all(0),
-                          child: const Text(
-                            "Friends",
-                            style: TextStyle(color: Colors.white),
-                          ),
-                          onPressed: () {}),
-                      CupertinoButton(
-                          child: const Text(
-                            "Family",
-                            style: TextStyle(color: Colors.white),
-                          ),
-                          onPressed: () {}),
-                    ],
-                  )
                 ],
               ),
             ),

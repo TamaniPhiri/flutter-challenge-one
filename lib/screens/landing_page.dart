@@ -32,14 +32,17 @@ class _LandingPageState extends State<LandingPage> {
                   onPressed: () {},
                   icon: const Icon(Icons.notification_add_rounded)),
             ),
-            flexibleSpace: const FlexibleSpaceBar(
-              background: Column(
-                children: [
-                  SizedBox(
-                    height: 80,
-                  ),
-                  TextField()
-                ],
+            flexibleSpace: FlexibleSpaceBar(
+              background: Container(
+                padding: const EdgeInsets.symmetric(horizontal: 20),
+                child: const Column(
+                  children: [
+                    SizedBox(
+                      height: 80,
+                    ),
+                    TextField()
+                  ],
+                ),
               ),
               title: Text("he"),
             ),

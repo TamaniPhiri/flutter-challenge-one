@@ -18,23 +18,16 @@ class _WelcomePageState extends State<WelcomePage> {
           child: Column(
             children: [
               Container(
-                height: 200,
                 color: Colors.white,
+                height: 400,
                 child: ListView(
-                  children: [
-                    Container(
-                      color: Colors.blue,
-                      height: 30,
-                    ),
-                    SizedBox(width: 10,),
-                    Container(
-                      color: Colors.blue,
-                      height: 30,
-                    ),
-                    Container(
-                      color: Colors.blue,
-                      height: 30,
-                    )
+                  children: const [
+                    Text("Hello"),
+                    Text("Hello"),
+                    Text("Hello"),
+                    Text("Hello"),
+                    Text("Hello"),
+                    Text("Hello")
                   ],
                 ),
               )

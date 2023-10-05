@@ -19,14 +19,9 @@ class _WelcomePageState extends State<WelcomePage> {
           pinned: true,
           leading: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 8),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                IconButton(
-                  onPressed: () {},
-                  icon: const Icon(Icons.person),
-                ),
-              ],
+            child: IconButton(
+              onPressed: () {},
+              icon: const Icon(Icons.person),
             ),
           ),
           title: Align(
@@ -74,7 +69,7 @@ class _WelcomePageState extends State<WelcomePage> {
                     placeholder: "Search",
                     padding: const EdgeInsets.all(20),
                     suffix: IconButton(
-                        padding: const EdgeInsets.only(right: 20),
+                        padding: const EdgeInsets.symmetric(horizontal: 20),
                         onPressed: () {},
                         icon: const Icon(CupertinoIcons.search)),
                     decoration: BoxDecoration(

@@ -23,19 +23,23 @@ class _LandingPageState extends State<LandingPage> {
     return Scaffold(
       body: tabItems[_selectedIndex],
       bottomNavigationBar: FlashyTabBar(
+        backgroundColor: Colors.blue,
         selectedIndex: _selectedIndex,
         onItemSelected: (index) => setState(() {
           _selectedIndex = (index);
         }),
         items: [
           FlashyTabBarItem(
-              icon: const Icon(Icons.home), title: const Text("Home")),
+              icon: const Icon(Icons.home),
+              title: const Text("Home"),
+              activeColor: Colors.white),
           FlashyTabBarItem(
               icon: const Icon(Icons.task), title: const Text("Tasks")),
           FlashyTabBarItem(
               icon: const Icon(Icons.schedule), title: const Text("Schedule"))
         ],
         iconSize: 30,
+        showElevation: true,
       ),
     );
   }

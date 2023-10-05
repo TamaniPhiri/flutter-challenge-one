@@ -34,7 +34,9 @@ class _WelcomePageState extends State<WelcomePage> {
                     ),
                     Text(
                       "See all",
-                      style: TextStyle(fontSize: 16),
+                      style: TextStyle(
+                        fontSize: 16,
+                      ),
                     ),
                   ],
                 ),

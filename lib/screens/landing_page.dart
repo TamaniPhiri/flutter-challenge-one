@@ -90,7 +90,7 @@ class _LandingPageState extends State<LandingPage> {
         onItemSelected: (index) => setState(() {
           _selectedIndex = (index);
         }),
-        items: [],
+        items: [FlashyTabBarItem(icon: Icon(Icons.home), title: Text("Home"))],
       ),
     );
   }

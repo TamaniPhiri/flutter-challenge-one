@@ -43,11 +43,16 @@ class _WelcomePageState extends State<WelcomePage> {
                   const SizedBox(
                     height: 80,
                   ),
-                  Row(
-                    children: [Text("hello")],
+                  const Row(
+                    children: [
+                      Text(
+                        "Hello",
+                        style: TextStyle(fontSize: 32),
+                      )
+                    ],
                   ),
                   const SizedBox(
-                    height: 20,
+                    height: 10,
                   ),
                   // Search Input
                   Padding(

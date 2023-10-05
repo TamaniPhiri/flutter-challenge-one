@@ -90,7 +90,7 @@ class _WelcomePageState extends State<WelcomePage> {
                             border: Border.all(color: Colors.white10),
                             borderRadius: BorderRadius.circular(100)),
                         child: CupertinoButton(
-                            color: const Color.fromARGB(255, 4, 64, 114),
+                            pressedOpacity: 0.3,
                             child: const Text(
                               "Therapists",
                               style: TextStyle(color: Colors.white),
@@ -98,7 +98,7 @@ class _WelcomePageState extends State<WelcomePage> {
                             onPressed: () {}),
                       ),
                       CupertinoButton(
-                          padding: const EdgeInsets.all(0),
+                          padding: EdgeInsets.all(0),
                           child: const Text(
                             "Friends",
                             style: TextStyle(color: Colors.white),

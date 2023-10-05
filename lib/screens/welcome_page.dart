@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class WelcomePage extends StatefulWidget {
@@ -42,19 +43,16 @@ class _WelcomePageState extends State<WelcomePage> {
                   const SizedBox(
                     height: 80,
                   ),
-                  Container(
+                  Padding(
+                    padding: const EdgeInsets.symmetric(
+                        horizontal: 20.0, vertical: 8),
+                    child: CupertinoTextField(
                       decoration: BoxDecoration(
                         color: Colors.white60,
                         borderRadius: BorderRadius.circular(20),
                       ),
-                      child: const Padding(
-                        padding:
-                            EdgeInsets.symmetric(horizontal: 20.0, vertical: 8),
-                        child: TextField(
-                          decoration: InputDecoration(
-                              border: InputBorder.none, hintText: "Search"),
-                        ),
-                      ))
+                    ),
+                  )
                 ],
               ),
             ),

@@ -35,12 +35,14 @@ class _LandingPageState extends State<LandingPage> {
             flexibleSpace: FlexibleSpaceBar(
               background: Container(
                 padding: const EdgeInsets.symmetric(horizontal: 20),
-                child: const Column(
+                child: Column(
                   children: [
-                    SizedBox(
+                    const SizedBox(
                       height: 80,
                     ),
-                    TextField()
+                    Container(
+                        decoration: const BoxDecoration(color: Colors.white),
+                        child: const TextField())
                   ],
                 ),
               ),
